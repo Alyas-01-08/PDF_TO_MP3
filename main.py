@@ -27,7 +27,7 @@ def pdf_to_mp3(file_path='test.pdf', languege='en'):
 def main():
     tprint('PDF>>TO>>MP3', font='bulbhead')
     file_path = input('\n Enter a file path: ')
-    language = input('Choose language, for example en, ru: ')
+    language = input('Choose language, for example en, ru, de: ')
     print(pdf_to_mp3(file_path=file_path, languege=language))
 
 if __name__ == '__main__':
